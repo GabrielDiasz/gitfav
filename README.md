@@ -18,6 +18,7 @@ Nesse desafio foi proposto a recriação de um layout de uma aplicação utiliza
 - Try, Throw e Catch
 
 Segue o link com do desafio concluido! 🚀💜
+
 Observação: Disponível apenas para desktop!
 
 <a href="https://gabrieldiasz.github.io/gitfav/">Desafio concluido!</a>

@@ -10,7 +10,7 @@ Nesse desafio foi proposto a recriação de um layout de uma aplicação utiliza
 
 - Funções de alta ordem (Higher Order Functions)
 - Promise com Async e Await
-- API (**Application Programming Interface**)
+- API (Application Programming Interface)
 - Classes e Construtores
 - JSON (JavaScript Object Notation)
 - Local Storage
@@ -18,5 +18,6 @@ Nesse desafio foi proposto a recriação de um layout de uma aplicação utiliza
 - Try, Throw e Catch
 
 Segue o link com do desafio concluido! 🚀💜
+Observação: Disponível apenas para desktop!
 
 <a href="https://gabrieldiasz.github.io/gitfav/">Desafio concluido!</a>

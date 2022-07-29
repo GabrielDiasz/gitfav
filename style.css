@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --text-color: #E1E1E6;
+}
+
+body {
+  font-size: 1.6rem;
+  background: black;
+}
+
+body, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+#app {
+  padding: 2rem;
+  max-width: 112rem;
+  margin: 12rem auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 9rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+header>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+}
+
+header input {
+  padding: 1.6rem;
+  background: #06181C;
+  width: 46.2rem;
+  height: 4.8rem;
+  border: none;
+  border-radius: .5rem;
+
+  color: #FFF;
+}
+
+header input:focus,
+header button:focus {
+  border: 2px solid #092D38;
+  outline: none;
+}
+
+header button {
+  font-family: 'Roboto', sans-serif;
+  padding: 1.2rem 3.2rem;
+  background: #065E7C;
+  color: #FFF;
+  font-weight: bold;
+  border-radius: .5rem;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+
+  cursor: pointer;
+  transition: background .3s;
+}
+
+header button:hover {
+  background: #ffF;
+  color: #065E7C;
+}
+
+header button:hover path {
+  fill: #065E7C;
+}
+
+table {
+  min-width: 72rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead {
+  background: #092D38;
+}
+
+table th {
+  text-align: left;
+  padding: 1.6rem;
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 160%;
+}
+
+table th:first-child {
+  padding-left: 4rem;
+  border-radius: 1.2rem 0 0 0;
+}
+
+table th:last-child {
+  border-radius: 0 1.2rem 0 0;
+}
+
+table tbody {
+  display: block;
+  overflow-y: overlay;
+  max-height: 40rem;
+
+  scroll-behavior: smooth;
+}
+
+table td {
+  color: var(--text-color);
+  font-weight: normal;
+  text-align: left;
+  padding: 1.6rem;
+}
+
+table tr:nth-child(odd) {
+  background: rgba(6, 22, 27, 0.5);
+}
+
+table tr:nth-child(even) {
+  background: rgba(133, 233, 255, 0.076);
+}
+
+table th:first-child,
+table td:first-child {
+  min-width: 50rem;
+}
+
+table th,
+table td {
+  min-width: 19rem;
+}
+
+table tr {
+  display: table;
+  width: 100%; 
+  table-layout: auto;
+  border-bottom: 1px solid #4A808C;
+}
+
+td.user {
+  padding-left: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+td.user img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+td.user a {
+  font-weight: bold;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+td.user span {
+  font-weight: normal;
+  color: var(--text-color);
+}
+
+td.remove button {
+  cursor: pointer;
+  font-size: 1.8rem;
+  border: none;
+  background: transparent;
+  color: red;
+  transition: ease 300ms;
+}
+
+td.remove button:hover {
+  font-size: 2rem;
+}
+
+.table-border {
+  border: 2px solid #4A808C;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.table-border tbody::-webkit-scrollbar {
+  width: 20px;
+}
+
+.table-border tbody::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.table-border tbody::-webkit-scrollbar-thumb {
+  padding: 2px;
+  border: 8px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  background-color: hsla(191, 31%, 42%, 1);
+  border-radius: 1rem;
+}
+
+.table-border tbody::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+.clean-table {
+  background-image: url(images/Estrela.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  height: 40rem;
+}
